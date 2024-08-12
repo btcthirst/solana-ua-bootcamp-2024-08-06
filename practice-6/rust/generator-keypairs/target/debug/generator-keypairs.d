@@ -1,0 +1,1 @@
+/home/min/solana-bootcamp/solana-ua-bootcamp-2024-08-06/practice-6/rust/generator-keypairs/target/debug/generator-keypairs: /home/min/solana-bootcamp/solana-ua-bootcamp-2024-08-06/practice-6/rust/generator-keypairs/src/main.rs

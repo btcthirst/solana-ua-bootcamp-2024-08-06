@@ -1,0 +1,26 @@
+{
+  "name": "solana-ua-bootcamp-2024-08-06",
+  "version": "1.0.0",
+  "description": "Форкніть цей репозитарій, і додайте адреусу свого форку як відповідь на практичне заняття 4.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btcthirst/solana-ua-bootcamp-2024-08-06.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btcthirst/solana-ua-bootcamp-2024-08-06/issues"
+  },
+  "homepage": "https://github.com/btcthirst/solana-ua-bootcamp-2024-08-06#readme",
+  "dependencies": {
+    "@solana-developers/helpers": "^2.4.0",
+    "@solana/web3.js": "^1.95.2",
+    "dotenv": "^16.4.5",
+    "esrun": "^3.2.26"
+  }
+}
