@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-favorites = "8hWVLk7NDuf3AfBVL3i8un9gPSxsthYWkr7vXSH3joas"
+favorites = "9yfmt5J9yLv6MNRaVGjkNbjYHa8KMZGjTvrSLvVbfSL4"
 
 [registry]
 url = "https://api.apr.dev"
@@ -15,4 +15,4 @@ cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+test = "yarn run jest --preset ts-jest --testTimeout 1000000"

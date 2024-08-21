@@ -1,11 +1,9 @@
 use anchor_lang::prelude::*;
 
-declare_id!("8hWVLk7NDuf3AfBVL3i8un9gPSxsthYWkr7vXSH3joas");
+declare_id!("9yfmt5J9yLv6MNRaVGjkNbjYHa8KMZGjTvrSLvVbfSL4");
 
+// Anchor programs always use
 pub const ANCHOR_DISCRIMINATOR_SIZE: usize = 8;
-
-#[derive(Accounts)]
-pub struct Initialize {}
 
 // What we will put inside the Favorites PDA
 #[account]
@@ -61,4 +59,3 @@ pub mod favorites {
 
     // We can also add a get_favorites instruction to get the user's favorite number and color
 }
-
